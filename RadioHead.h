@@ -108,7 +108,7 @@ Sparkfun nRF52 boards manager 0.2.3.
 Works with Semtech SX1276/77/78/79, Modtronix inAir4 and inAir9,
 and HopeRF RFM95/96/97/98 and other similar LoRa capable radios.
 Supports Long Range (LoRa) with spread spectrum frequency hopping, large payloads etc.
-FSK/GFSK/OOK modes are not (yet) supported.
+FSK/GFSK/OOK modes are supported in a separate driver (RH_RF95_FSKOOK).
 Also works with the same chips on Linux using LoRa-file-ops Linux driver ioctls to
 transmit and receive RadioHead compatible messages. 
 Requires a modified version of LoRa-file-ops driver to be installed,
